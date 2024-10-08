@@ -1,5 +1,5 @@
 import streamlit as st
-from model_python import translate_text
+from model import translate_text
 
 
 st.markdown(
