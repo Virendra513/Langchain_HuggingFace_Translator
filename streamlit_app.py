@@ -27,8 +27,17 @@ st.markdown(
 )
 
 
+# Title in the sidebar
+st.sidebar.title("Anuvadak- The Transalator")
+
+# Paragraph in the sidebar
+st.sidebar.write("""Welcome to our English to Hindi translator application! This tool leverages the powerful "Helsinki-NLP/opus-mt-en-hi" model, which is renowned for its high-quality translation capabilities. By utilizing the Langchain-HuggingFace framework, we have created a seamless user experience that allows you to effortlessly translate English text into Hindi.
+""")
+
+
 st.markdown('<p class="custom-title">English to Hindi Translator</p>',unsafe_allow_html=True)
 st.write("")
+
 
 # User input
 text_to_translate = st.text_area("Enter/Paste text in English:")
